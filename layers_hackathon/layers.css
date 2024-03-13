@@ -1,108 +1,753 @@
-@import "compass/css3";
 
-* {
-    margin: 0;
-    padding: 0;
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+        <link rel="stylesheet" href="layers.css">
+    </head>
+    <body>
+    <div id="load">
+        <div id="logo" style="margin-top:0">
+            <img src="https://i.ibb.co/5F06fvz/20210722-075425.jpg" alt="20210722-075425" border="0">
+        </div>
+    </div>
+    <div id="full">
+ <div class="header">
+     <ion-icon name="menu-outline" onclick="opn()"></ion-icon> <span>&nbsp Welcome</span>
+ </div>
+ <!--
+
+
+
+
+-->
+ <div id="main">
+ <br>
+         <div id="slider">
+    <figure>
+        <img src="https://i.ibb.co/p3Zvckf/images-45.jpg" alt="images-45" border="0" />
+        <img src="https://i.ibb.co/PQzt9n3/images-43.jpg" alt="images-43" border="0" />
+        <img src="https://i.ibb.co/p1yWV9y/images-44.jpg" alt="images-44" border="0" />
+        <img src="https://i.ibb.co/q7yVf8w/images-46.jpg" alt="images-46" border="0" />
+        <img src="https://i.ibb.co/bJSkXtv/images-47.jpg" alt="images-47" border="0">
+    </figure>
+</div>
+        <div id="logo">
+            <img src="https://i.ibb.co/5F06fvz/20210722-075425.jpg" alt="20210722-075425" border="0">
+        </div>
+        <!--
+        
+
+
+        -->
+        <div class="cat1">
+            <span class="curr">Currently <b>Watching</b></span>
+            <div id="scroll">
+                <div>
+                    
+ <img src="https://i.ibb.co/84DML6r/images-48.jpg" alt="images-48" border="0">
+<br>
+                <b>&nbsp &nbspAttack on Titan</b>
+                <br>
+                &nbsp &nbspEpisode : 8/12
+                </div>
+                <div>
+                    
+<img src="https://i.ibb.co/rHqfDWS/images-20.jpg" alt="images-20" border="0">
+
+<br>
+                <b>&nbsp &nbspFate Stay/Night </b>
+                <br>
+                &nbsp &nbsp Episode : 11/12
+                </div>
+                <div>
+                    
+<img src="https://i.ibb.co/ZLd0WPc/images-21.jpg" alt="images-21" border="0">
+<br>
+                <b>&nbsp &nbspDr Stone</b>
+                <br>
+                &nbsp &nbsp Episode : 19/24
+                </div>                            
+                <div>
+                    
+<img src="https://i.ibb.co/NCK21fw/images-22.jpg" alt="images-22" border="0">
+
+
+<br>
+                <b>&nbsp &nbspOne Punch Man</b>
+                <br>
+                &nbsp &nbsp Episode : 3/12
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/dLc5PW4/images-23.jpg" alt="images-23" border="0">
+
+<br>
+                <b>&nbsp &nbspDemon Slayer</b>
+                <br>
+                &nbsp &nbsp Episode : 15/24
+                </div> &nbsp &nbsp &nbsp;
+            </div>
+        </div>
+        <br>
+        <hr width="80%" align="center">
+        <div class="cat1" id="c1">
+        <span class="curr">Currently <b>Airing</b></span>
+        </div>
+        <div class="roll">
+            <span>
+                <img src="https://i.ibb.co/GF8SJ8W/images-24.jpg" alt="images-24" border="0">
+
+
+              <div style="margin-top:3px"><b>&nbsp Seirei Gensouki </b><br>
+              &nbsp Episode 3 of 12 
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+        <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+        </div>
+         <div class="roll">
+            <span>
+            <img src="https://i.ibb.co/fqNPmm6/images-28.jpg" alt="images-28" border="0">
+
+
+              <div style="margin-top:3px"><b>&nbsp Tokyo Revengers </b><br>
+              &nbsp Episode 16 of 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+        </div>
+         <div class="roll">
+            <span>
+            <img src="https://i.ibb.co/2tcySFx/images-27.jpg" alt="images-27" border="0">
+
+
+                
+              <div style="margin-top:3px"><b>&nbsp Tsukimichi </b><br>
+              &nbsp Episode 3 of 12 
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+        </div>
+             <div class="roll">
+            <span>
+                <img src="https://imgpile.com/images/NfC87R.jpg" alt="NfC87R.jpg" border="0" />
+              <div style="margin-top:3px"><b>&nbsp Sonny Boy </b><br>
+              &nbsp Episode 2 of 12 
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+    <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+        </div>
+             <div class="roll">
+            <span>
+                <img src="https://imgpile.com/images/NfCVJg.jpg" alt="NfCVJg.jpg" border="0" />
+              <div style="margin-top:3px"><b>&nbsp To Your Eternity </b><br>
+              &nbsp Episode 14 of 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+        </div>
+        
+        <div class="see">See more&nbsp <ion-icon name="chevron-forward-outline"></ion-icon></div>
+        <br>
+        <hr width="80%" align="center">
+        <br>
+        
+          <div class="cat1" id="c1">
+        <span class="curr">Top <b>Animes</b></span>
+        </div>
+        <div class="post">
+            <div class="p1">
+           
+            </div>
+                 <div class="im">
+                
+                </div>
+                <div class="p2">
+                    <div class="title">
+                    <div id="o">
+                        <div>Tokyo Ghoul</div>
+                   <div><ion-icon name="play-circle-outline"></ion-icon></div>
+                    </div>
+                            <br>
+                            <div id="a">
+                                4 seasons
+                            </div>
+                    </div>
+                    <div class="story">
+                        Tokyo has become a cruel and merciless city—a place where vicious creatures called "ghouls" exist alongside humans. The citizens of this once great metropolis live in constant fear of these bloodthirsty savages and their thirst for human flesh. However, the greatest threat these ghouls pose is their dangerous ability to masquerade as humans and blend in with society. <i style="color:#BF9C5A;">Read more.</i>
+
+                    </div>
+                </div>
+                <br>
+               
+         <br/>
+         <br>
+                <div class="p1" id="p3">
+           
+            </div>
+                 <div class="im">
+                
+                </div>
+                <div class="p2">
+                    <div class="title">
+                    <div id="o">
+                        <div>Death Note</div>
+                   <div><ion-icon name="play-circle-outline"></ion-icon></div>
+                    </div>
+                            <br>
+                            <div id="a">
+                                1 season
+                            </div>
+                    </div>
+                    <div class="story">
+                        A shinigami, as a god of death, can kill any person—provided they see their victim's face and write their victim's name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use a Death Note, drops one into the human realm.
+ <i style="color:#BF9C5A;">Read more.</i>
+
+                    </div>
+                </div>
+        </div>
+        <br>
+        <br>
+        <div class="p1" id="p4">
+           
+            </div>
+                 <div class="im">
+                
+                </div>
+                <div class="p2">
+                    <div class="title">
+                    <div id="o">
+                        <div>Sword Art Online</div>
+                   <div><ion-icon name="play-circle-outline"></ion-icon></div>
+                    </div>
+                            <br>
+                            <div id="a">
+                                3 seasons
+                            </div>
+                    </div>
+                    <div class="story">
+                      In the year 2022, virtual reality has progressed by leaps and bounds, and a massive online role-playing game called Sword Art Online (SAO) is launched. With the aid of "NerveGear" technology, players can control their avatars within the game using nothing but their own thoughts.
+ <i style="color:#BF9C5A;">Read more.</i>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                  <div class="p1" id="p5">
+           
+            </div>
+                 <div class="im">
+                
+                </div>
+                <div class="p2">
+                    <div class="title">
+                    <div id="o">
+                        <div>Noragami</div>
+                   <div><ion-icon name="play-circle-outline"></ion-icon></div>
+                    </div>
+                            <br>
+                            <div id="a">
+                                2 seasons
+                            </div>
+                    </div>
+                    <div class="story">
+                     In times of need, if you look in the right place, you just may see a strange telephone number scrawled in red. If you call this number, you will hear a young man introduce himself as the Yato God.
+
+Yato is a minor deity and a self-proclaimed "Delivery God," who dreams of having millions of worshippers. 
+ <i style="color:#BF9C5A;">Read more.</i>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                  <div class="p1" id="p6">
+           
+            </div>
+                 <div class="im">
+                
+                </div>
+                <div class="p2">
+                    <div class="title">
+                    <div id="o">
+                        <div>Attack On Titan</div>
+                   <div><ion-icon name="play-circle-outline"></ion-icon></div>
+                    </div>
+                            <br>
+                            <div id="a">
+                                4 seasons
+                            </div>
+                    </div>
+                    <div class="story">
+                     Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out
+ <i style="color:#BF9C5A;">Read more.</i>
+<br>
+                    </div>
+                </div>
+                <br>
+                <div class="see">See more&nbsp <ion-icon name="chevron-forward-outline"></ion-icon></div>
+                <br>
+                <!--
+                
+                
+
+
+-->
+                <hr width="80%" align="center">
+                
+     
+
+          <div class="cat1" id="c1">
+        <span class="curr">Most<b> Viewed</b></span>
+        </div>
+                <div class="roll" id="a1">
+            <span>
+           <img src="https://i.ibb.co/GkSMg4Z/images-50.jpg" alt="images-50" border="0">
+
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Seraph of the End</b><br>
+              <b style="font-weight:lighter">&nbsp 3.9 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 12
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                 <ion-icon name="play-circle-outline" id="g"></ion-icon>
+            </div>
+            </div>
+            <div class="story">
+                With the appearance of a mysterious virus that kills everyone above the age of 13, mankind becomes enslaved by previously hidden, power-hungry vampires who emerge in order to subjugate <i style="color:#BF9C5A;">Read more.</i>
+            </div>
+        
+                <br>
+                <div class="roll" id="a1">
+            <span>
+            <img src="https://i.ibb.co/7WqhkB6/images-49.jpg" alt="images-49" border="0">
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Black Clover</b><br>
+              <b style="font-weight:lighter">&nbsp 4.1 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 170
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="play-circle-outline" id="g"></ion-icon>
+            </div>
+            </div>
+            <div class="story">
+                Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the "Wizard King"—a title given to the strongest mage in the kingdom—and promised <i style="color:#BF9C5A;">Read more.</i>
+            </div>
+            <br>
+            <div class="roll" id="a1">
+            <span>
+        <img src="https://i.ibb.co/0BBCc0W/images-51.jpg" alt="images-51" border="0">
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Jujutsu kaisen</b><br>
+              <b style="font-weight:lighter">&nbsp 4.4 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                 <ion-icon name="play-circle-outline" id="g"></ion-icon>
+            </div>
+            </div>
+            <div class="story">
+                Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather.  <i style="color:#BF9C5A;">Read more.</i>
+            </div>
+            <br>
+            <div class="roll" id="a1">
+            <span>
+          <img src="https://i.ibb.co/51kJ4NK/images-52.jpg" alt="images-52" border="0">
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Blue Exorcist</b><br>
+              <b style="font-weight:lighter">&nbsp 4.0 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 25
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+               <ion-icon name="play-circle-outline" id="g"></ion-icon>
+            </div>
+            </div>
+            <div class="story">
+                Humans and demons are two sides of the same coin, as are Assiah and Gehenna, their respective worlds. The only way to travel between the realms is by the means of possession, like in ghost stories<i style="color:#BF9C5A;">Read more.</i>
+            </div>
+            <br>
+            <div class="see">See more&nbsp <ion-icon name="chevron-forward-outline"></ion-icon></div>
+                </div>
+                
+ <!--  ================================-->
+                <div id="full-search">
+                <br>
+                  <div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" placeholder="&nbsp Search Animes..." id="i" style="border:none">
+        </div>
+        <div class="add">
+            Add to <b>Watchlist</b>
+        </div>
+         <div class="roll" id="a1">
+            <span>
+               <img src="https://imgpile.com/images/NfMDTG.jpg" alt="NfMDTG.jpg" border="0">
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Naruto</b><br>
+              <b style="font-weight:lighter">&nbsp 4.5 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 220
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+        
+        <div class="roll" id="a1">
+            <span>
+            <img src="https://imgpile.com/images/NfMjNX.jpg" alt="NfMjNX.jpg" border="0" />
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Horimiya</b><br>
+              <b style="font-weight:lighter">&nbsp 3.9 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 12
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+        <div class="roll" id="a1">
+            <span>
+       <img src="https://imgpile.com/images/NfJItR.jpg" alt="NfJItR.jpg" border="0">
+            
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Parasyte : The Maxim</b><br>
+              <b style="font-weight:lighter">&nbsp 4.3 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+<div class="roll" id="a1">
+            <span>
+            <img src="https://imgpile.com/images/NfJ14r.jpg" alt="NfJ14r.jpg" border="0">
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp The Seven Deadly Sins</b><br>
+              <b style="font-weight:lighter">&nbsp 3.8 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+        <div class="roll" id="a1">
+            <span>
+               <img src="https://imgpile.com/images/NfJ4OE.jpg" alt="NfJ4OE.jpg" border="0">
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Akame Ga Kill</b><br>
+              <b style="font-weight:lighter">&nbsp 4.0 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 24
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+        <div class="roll" id="a1">
+            <span>
+             <img src="https://imgpile.com/images/NfMyYh.jpg" alt="NfMyYh.jpg" border="0">
+
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Peach Boy Riverside</b><br>
+              <b style="font-weight:lighter">&nbsp 3.7 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Currently Airing
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+<div class="roll" id="a1">
+            <span>
+               <img src="https://i3.lensdump.com/i/ZHCim3.jpg" alt="images (37)" border="0">
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp No Game No Life</b><br>
+              <b style="font-weight:lighter">&nbsp 4.1 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 12
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+        </div>
+<div class="roll" id="a1">
+            <span>
+               <img src="https://i.lensdump.com/i/ZHCju0.jpg" alt="images (36)" border="0">
+              <div style="margin-top:10px;"><b style="font-size:18px">&nbsp Bleach</b><br>
+              <b style="font-weight:lighter">&nbsp 4.2 <ion-icon name="star" style="font-size:15px;color:#BF9C5A"></ion-icon></b>
+              <br>
+              &nbsp Episodes : 366
+              </div>
+            </span>
+            <div style="color:#394159
+            ; font-size:22px">
+                <ion-icon name="add-outline" id="g"></ion-icon>
+            </div>
+            
+        </div>
+       
+        <br>
+        </div>
+        <div class="full-user" id="full-user">
+            <div class="cvr">
+                <img src="https://i1.lensdump.com/i/ZHC1TQ.jpg" alt="ZHC1TQ.jpg" border="0" />
+            </div>
+            <div class="me">
+                <div class="pic">
+                    <img src="https://i2.lensdump.com/i/ZHCCuH.jpg" alt="ZHCCuH.jpg" border="0" />
+                </div>
+                <div class="m3">
+                    <b id="m2">Justin</b>
+                    
+                    <br>
+                    Go Premium
+                </div>
+            </div>
+            <div class="set"> General</div>
+            <hr width="80%" align="center">
+            <div class="sett">
+            <div>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon> Completed Watching        </div>
+                <div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="sett">
+            <div>
+               <ion-icon name="trash-bin-outline"></ion-icon> Dropped      </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            
+            <div class="sett">
+            <div>
+                <ion-icon name="heart-outline"></ion-icon> Favourites       </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+           <div class="sett">
+            <div>
+               <ion-icon name="calendar-outline"></ion-icon> Plan To Watch       </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+             <div class="sett">
+            <div>
+                <ion-icon name="grid-outline"></ion-icon> Genres      </div>
+                <div>
+                   <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+             <div class="sett">
+            <div>
+                <ion-icon name="people-outline"></ion-icon> Friends       </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            <br>
+            <div class="set"> About</div>
+            <hr width="80%" align="center">
+             <div class="sett">
+            <div>
+              <ion-icon name="finger-print-outline"></ion-icon> Privacy Policy      </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            
+            <div class="sett">
+            <div>
+              <ion-icon name="bug-outline"></ion-icon> Bug Report     </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="sett">
+            <div>
+              <ion-icon name="chatbubble-ellipses-outline"></ion-icon> Developer Contact     </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="sett">
+            <div>
+             <ion-icon name="apps-outline"></ion-icon> More Apps    </div>
+                <div>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+            <br><br>
+            <div class="ver">Version 2.1.4 © Animefox <br><span>By Justin</span></div><br>
+        </div>
+        
+        
+        
+        
+        <div id="nav">
+        <div id="closee" onclick="cl()">
+            <ion-icon name="close-outline" ></ion-icon>
+        </div>
+        <div class="hd">
+                <img src="https://i1.lensdump.com/i/ZOGO2c.jpg" alt="ZOGO2c.jpg" border="0" id="um"/> &nbspAnimeFox
+                </div>
+                <br>
+                <div class="row" id="hm" onclick="hm()">
+                     <ion-icon name="home-outline"></ion-icon> &nbsp &nbspHome
+                </div>
+                 <div class="row" id="wl" onclick="wl()">
+                      <ion-icon name="play-outline"></ion-icon>  &nbsp &nbspWatchlist
+                </div>
+                 <div class="row" id="ur" onclick="ur()">
+                     <ion-icon name="person-outline"></ion-icon> &nbsp &nbspProfile
+                </div>
+                 <div class="row" id="fa" onclick="fa()">
+                <ion-icon name="heart-outline"></ion-icon> &nbsp &nbspFavourites
+                </div>                        
+                 <div class="row" id="ab" onclick="ab()">
+                     <ion-icon name="information-circle-outline"></ion-icon> &nbsp &nbspAbout
+                </div>
+        </div>
+        
+        
+                <div class="bottom">
+                    <div class="home" onclick="home()" id="home">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <br>Home
+                    </div>
+                    <div class="watch" onclick="watch()" id="watch">
+                        <ion-icon name="play-outline"></ion-icon> 
+                        <br> 
+                        Watchlist
+                    </div>
+                    <div class="user" onclick="user()" id="user">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <br>
+                        Profile
+                    </div>
+                </div>
+                <br><br><br>
+                </div>
+                <script>
+                    window.onload=function start(){
+    document.getElementById("full").style.display="block"
+    document.getElementById("load").style.display="none";
+    
+}
+function home(){
+    document.getElementById("home").style.color="#BF9C5A";
+    document.getElementById("watch").style.color="#EEEEEE";
+    document.getElementById("user").style.color="#EEEEEE";
+    document.getElementById("main").style.display="block";
+    document.getElementById("full-search").style.display="none";
+    document.getElementById("full-user").style.display="none";
+}
+function watch(){
+    document.getElementById("home").style.color="#EEEEEE";
+    document.getElementById("watch").style.color="#BF9C5A";
+    document.getElementById("user").style.color="#EEEEEE";
+    document.getElementById("main").style.display="none";
+    document.getElementById("full-search").style.display="block";
+    document.getElementById("full-user").style.display="none";
+}
+function user(){
+    document.getElementById("home").style.color="#EEEEEE";
+    document.getElementById("watch").style.color="#EEEEEE";
+    document.getElementById("user").style.color="#BF9C5A";
+    document.getElementById("main").style.display="none";
+    document.getElementById("full-search").style.display="none";
+    document.getElementById("full-user").style.display="block";
+}
+function cl(){
+    document.getElementById("nav").style.animation="0.8s slide2";
+    document.getElementById("nav").style.left="calc(-50vw - 101px)"
+}
+function hm(){
+    document.getElementById("hm").style.color="#BF9C5A";
+    document.getElementById("wl").style.color="#EEEEEE";
+    document.getElementById("ur").style.color="#EEEEEE";
+    document.getElementById("fa").style.color="#EEEEEE";
+    document.getElementById("ab").style.color="#EEEEEE";
+}
+function wl(){
+    document.getElementById("hm").style.color="#EEEEEE";
+    document.getElementById("wl").style.color="#BF9C5A";
+    document.getElementById("ur").style.color="#EEEEEE";
+    document.getElementById("fa").style.color="#EEEEEE";
+    document.getElementById("ab").style.color="#EEEEEE";
+}
+function ur(){
+    document.getElementById("hm").style.color="#EEEEEE";
+    document.getElementById("wl").style.color="#EEEEEE";
+    document.getElementById("ur").style.color="#BF9C5A";
+    document.getElementById("fa").style.color="#EEEEEE";
+    document.getElementById("ab").style.color="#EEEEEE";
+}
+function fa(){
+    document.getElementById("hm").style.color="#EEEEEE";
+    document.getElementById("wl").style.color="#EEEEEE";
+    document.getElementById("ur").style.color="#EEEEEE";
+    document.getElementById("fa").style.color="#BF9C5A";
+    document.getElementById("ab").style.color="#EEEEEE";
+}
+function ab(){
+    document.getElementById("hm").style.color="#EEEEEE";
+    document.getElementById("wl").style.color="#EEEEEE";
+    document.getElementById("ur").style.color="#EEEEEE";
+    document.getElementById("fa").style.color="#EEEEEE";
+    document.getElementById("ab").style.color="#BF9C5A";
+}
+function opn(){
+    
+document.getElementById("nav").style.animation="0.8s slide";
+    document.getElementById("nav").style.left="0vw"
 }
 
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700);
 
-html,
-body {
-    height: 100%;
-}
 
-body {
-    text-align: center;
-    background-color: #5d4660;
-    @include filter-gradient(#5d4660, #f7eec7, vertical);
-    $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top, #5d4660 0%, #f7eec7 100%));
-    font-family: 'Droid Sans', sans-serif;
-}
 
-.wrap {
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    color: #989A8F;
-}
 
-.table {
-    background-color: #ffffff;
-    height: 325px;
-    width: 100%;
-    margin-top: 50px;
-}
-
-ul li {
-    float: left;
-    width: 199px;
-    text-align: center;
-    border-left: 1px solid #DDDCD8;
-}
-
-.top {
-    background-color: #EAE9E4;
-    height: 75px;
-
-    h1 {
-        padding-top: 20px;
-    }
-}
-
-.circle {
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    font-size: 20px;
-    color: #fff;
-    line-height: 60px;
-    text-align: center;
-    background: #989A8F;
-    margin-left: 70px;
-    margin-top: 10px;
-}
-
-.bottom {
-    margin-top: 50px;
-
-    p {
-        font-size: 13px;
-        font-family: 'Droid Serif', sans-serif;
-        padding: 5px;
-
-        span {
-            font-weight: bold;
-        }
-    }
-}
-
-.sign {
-    margin-top: 50px;
-
-    .button {
-        border: 1px solid #989A8F;
-        padding: 10px 40px;
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        color: #989A8F;
-        font-size: 14px;
-        text-decoration: none;
-        vertical-align: middle;
-        font-size: 17px;
-    }
-}
-
-.purple {
-    background-color: #5D4660;
-}
-
-.white {
-    color: #FFFFFF;
-}
-
-.pink {
-    background-color: #BC9B94;
-}
+                </script>
+    </body>
+</html>
